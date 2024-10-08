@@ -18,7 +18,7 @@ export default async function middleware(req: NextRequest) {
 
     return NextResponse.next();
   } catch (err) {
-    console.log(err.message);
+    console.error(err.message);
     return NextResponse.redirect(new URL("/login", req.nextUrl));
   }
 }
