@@ -6,7 +6,6 @@ const protectedRoutes = ["/about-us"];
 
 export default async function middleware(req: NextRequest) {
   try {
-    console.log("masuk");
     const isProtected = protectedRoutes.some((path) =>
       req.nextUrl.pathname.startsWith(path)
     );
@@ -19,6 +18,7 @@ export default async function middleware(req: NextRequest) {
 
     return NextResponse.next();
   } catch (err) {
+    alert(err.message);
     return NextResponse.redirect(new URL("/login", req.nextUrl));
   }
 }

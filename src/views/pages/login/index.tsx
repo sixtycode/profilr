@@ -10,7 +10,7 @@ export default function LoginView() {
       <Link href="/">
         <button
           className="border-2 border-black"
-          // onClick={() => router.push("/")}
+          onClick={() => router.push("/")}
         >
           Home
         </button>
