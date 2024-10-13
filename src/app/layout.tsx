@@ -14,7 +14,10 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Vhicl",
+  title: {
+    template: "%s I Vhicl",
+    default: "Vhicl",
+  },
   description: "Vehicle For Today",
 };
 
