@@ -3,6 +3,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "404 Not Found",
+  description: "Page did not exist",
 };
 
 export default function NotFound() {
