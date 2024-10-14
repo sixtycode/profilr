@@ -8,12 +8,7 @@ const config: Config = {
   ],
   darkMode: "media",
   theme: {
-    extend: {
-      fontFamily: {
-        sans: ["var(--font-plus-jakarta-sans"],
-        mono: ["var(--font-roboto-mono"],
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };
