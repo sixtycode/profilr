@@ -1,8 +1,21 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Plus_Jakarta_Sans, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const plus = Plus_Jakarta_Sans({
+  weight: ["300", "400", "500", "600", "700"],
+  subsets: ["latin"],
+  variable: "--font-plus-jakarta-sans",
+  display: "swap",
+  fallback: ["Helvetica", "Arial", "sans-serif"],
+});
+
+const roboto_mono = Roboto_Mono({
+  subsets: ["latin"],
+  variable: "--font-roboto-mono",
+  display: "swap",
+  fallback: ["Courier", "monospace"],
+});
 
 export const metadata: Metadata = {
   title: {
@@ -18,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={inter.className}>
+    <html lang="en" className={`${plus.variable} ${roboto_mono.variable}`}>
       <body className="bg-white dark:bg-neutral-800">{children}</body>
     </html>
   );
