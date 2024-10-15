@@ -7,83 +7,75 @@ export const metadata: Metadata = {
 
 export default async function Teams() {
   const staticData = await fetch(
-    `https://randomuser.me/api/?results=10&exc=gender,location,login,registered,dob,phone,cell,id,nat&noinfo
+    `https://randomuser.me/api/?results=10&exc=gender,location,login,registered,dob,phone,cell,id&nat=us&noinfo
 `,
     {
-      cache: "force-cache",
+      cache: "no-cache",
     }
   );
 
+  const peopleData = await staticData.json();
+
   const people = [
     {
-      name: "aasdas",
+      name: `${peopleData.results[0].name.first} ${peopleData.results[0].name.last}`,
       role: "Co-Founder / CEO",
-      mail: "acme1@corp.com",
-      imageUrl:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      mail: peopleData.results[0].email,
+      imageUrl: peopleData.results[0].picture.medium,
     },
     {
-      name: "asdasdsa",
+      name: `${peopleData.results[1].name.first} ${peopleData.results[1].name.last}`,
       role: "Co-Founder / CTO",
-      mail: "acme2@corp.com",
-      imageUrl:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      mail: peopleData.results[1].email,
+      imageUrl: peopleData.results[1].picture.medium,
     },
     {
-      name: "assdsadasas",
+      name: `${peopleData.results[2].name.first} ${peopleData.results[2].name.last}`,
       role: "Sales Manager",
-      mail: "acme3@corp.com",
-      imageUrl:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      mail: peopleData.results[2].email,
+      imageUrl: peopleData.results[2].picture.medium,
     },
     {
-      name: "asdasdas",
+      name: `${peopleData.results[3].name.first} ${peopleData.results[3].name.last}`,
       role: "Software Engineer",
-      mail: "acme4@corp.com",
-      imageUrl:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      mail: peopleData.results[3].email,
+      imageUrl: peopleData.results[3].picture.medium,
     },
     {
-      name: "asdaddsas",
+      name: `${peopleData.results[4].name.first} ${peopleData.results[4].name.last}`,
       role: "Marketing Specialist",
-      mail: "acme5@corp.com",
-      imageUrl:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      mail: peopleData.results[4].email,
+      imageUrl: peopleData.results[4].picture.medium,
     },
     {
-      name: "zxczczxz",
+      name: `${peopleData.results[5].name.first} ${peopleData.results[5].name.last}`,
       role: "UI/UX Designer",
-      mail: "acme6@corp.com",
-      imageUrl:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      mail: peopleData.results[5].email,
+      imageUrl: peopleData.results[5].picture.medium,
     },
     {
-      name: "asdsazx",
+      name: `${peopleData.results[6].name.first} ${peopleData.results[6].name.last}`,
       role: "Accountant",
-      mail: "acme7@corp.com",
-      imageUrl:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      mail: peopleData.results[6].email,
+      imageUrl: peopleData.results[6].picture.medium,
     },
     {
-      name: "asdasxzc",
+      name: `${peopleData.results[7].name.first} ${peopleData.results[7].name.last}`,
       role: "Product Manager",
-      mail: "acme8@corp.com",
-      imageUrl:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      mail: peopleData.results[7].email,
+      imageUrl: peopleData.results[7].picture.medium,
     },
     {
-      name: "asdaszxcxzz",
+      name: `${peopleData.results[8].name.first} ${peopleData.results[8].name.last}`,
       role: "Recruiter",
-      mail: "acme9@corp.com",
-      imageUrl:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      mail: peopleData.results[8].email,
+      imageUrl: peopleData.results[8].picture.medium,
     },
     {
-      name: "asdaszxzxcc",
+      name: `${peopleData.results[9].name.first} ${peopleData.results[9].name.last}`,
       role: "QA Engineer",
-      mail: "acme10@corp.com",
-      imageUrl:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      mail: peopleData.results[9].email,
+      imageUrl: peopleData.results[9].picture.medium,
     },
   ];
 
