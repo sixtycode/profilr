@@ -10,9 +10,13 @@ export default async function Teams() {
     `https://randomuser.me/api/?results=10&exc=gender,location,login,registered,dob,phone,cell,id&nat=us&noinfo
 `,
     {
-      cache: "no-cache",
+      cache: "force-cache",
     }
   );
+
+  if (!staticData.ok) {
+    throw new Error("Failed to fetch data");
+  }
 
   const peopleData = await staticData.json();
 
