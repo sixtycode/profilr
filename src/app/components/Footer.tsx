@@ -61,7 +61,7 @@ export default function Footer() {
         </Link>
         . All Rights Reserved.
         <div className="fixed bottom-4 right-4">
-          <button className="font-bold py-4 px-4 rounded-full shadow-md">
+          <button className="text-lg py-4 px-4 rounded-full shadow-md">
             <RiMoonClearLine />
           </button>
         </div>
