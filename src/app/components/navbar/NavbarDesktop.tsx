@@ -4,7 +4,7 @@ import { itemsNav } from "./NavItem";
 export default function NavbarDesktop() {
   return (
     <>
-      <nav className="bg-black text-white dark:bg-neutral-200 dark:text-black sticky shadow-md">
+      <nav className="bg-black text-white dark:bg-neutral-300 dark:text-black sticky shadow-md">
         <div className="hidden sm:ml-6 sm:block mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
           <div className="relative flex h-16 items-center justify-between">
             <div className="flex space-x-4">
