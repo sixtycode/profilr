@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <>
-      <footer className="text-center text-sm p-3 pb-20 md:pb-3">
+      <footer className="text-black text-center text-sm p-3 pb-20 md:pb-3">
         <span>© </span>
         2024{" "}
         <Link

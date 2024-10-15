@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-white dark:bg-neutral-700">
+      <body className="bg-white dark:bg-slate-800">
         <NavbarDesktop />
         <NavbarMobile />
         {children}
