@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Us",
+  description: "About Company Profiles",
+};
+
 export default function About() {
   return (
     <>

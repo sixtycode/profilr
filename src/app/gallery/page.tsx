@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Gallery",
+  description: "Vehicles Showcase",
+};
+
 export default function Gallery() {
   return (
     <>
