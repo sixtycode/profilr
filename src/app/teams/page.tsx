@@ -29,49 +29,49 @@ const people = [
   },
   {
     name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    mail: "Software Engineer",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-  },
-  {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
+    role: "Software Engineer",
     mail: "acme@corp.com",
     imageUrl:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
   },
   {
     name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
+    role: "Marketing Specialist",
     mail: "acme@corp.com",
     imageUrl:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
   },
   {
     name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
+    role: "UI/UX Designer",
     mail: "acme@corp.com",
     imageUrl:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
   },
   {
     name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
+    role: "Accountant",
     mail: "acme@corp.com",
     imageUrl:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
   },
   {
     name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
+    role: "Product Manager",
     mail: "acme@corp.com",
     imageUrl:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
   },
   {
     name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
+    role: "Recruiter",
+    mail: "acme@corp.com",
+    imageUrl:
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+  },
+  {
+    name: "Leslie Alexander",
+    role: "QA Engineer",
     mail: "acme@corp.com",
     imageUrl:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
@@ -84,13 +84,13 @@ export default function Teams() {
       <div className="py-24 sm:py-32">
         <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
           <div className="max-w-2xl">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
               About the team
             </h2>
             <p className="mt-6 text-lg leading-8">
               We&apos;re a dynamic group of individuals who are passionate about
-              what we do and dedicated to delivering the best results for our
-              clients.
+              what we do at Vehicles World and dedicated to delivering the best
+              results for our clients satisfaction.
             </p>
           </div>
           <ul
