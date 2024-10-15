@@ -17,7 +17,6 @@ export default function Footer() {
               href="https://linkedin.com/in/viosagara"
               target="_blank"
               rel="noopener noreferrer"
-              alt="LinkedIn viosagara"
             >
               <RiLinkedinBoxLine />
             </Link>
@@ -27,7 +26,6 @@ export default function Footer() {
               href="https://youtube.com/@sagaravio"
               target="_blank"
               rel="noopener noreferrer"
-              alt="YouTube sagaravio"
             >
               <RiYoutubeLine />
             </Link>
@@ -37,7 +35,6 @@ export default function Footer() {
               href="https://instagram.com/sagaravio"
               target="_blank"
               rel="noopener noreferrer"
-              alt="Instagram sagaravio"
             >
               <RiInstagramLine />
             </Link>
@@ -47,7 +44,6 @@ export default function Footer() {
               href="https://tiktok.com/@sgrvio"
               target="_blank"
               rel="noopener noreferrer"
-              alt="TikTok sgrvio"
             >
               <RiTiktokLine />
             </Link>
@@ -68,7 +64,6 @@ export default function Footer() {
           <button
             name="darktoggle"
             className="text-lg py-4 px-4 rounded-full shadow-md"
-            alt="Toggle Dark Mode"
           >
             <RiMoonClearLine />
           </button>
