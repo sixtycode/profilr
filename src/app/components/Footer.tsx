@@ -12,7 +12,7 @@ export default function Footer() {
     <>
       <footer className="text-black dark:text-white text-center text-sm p-3 pb-20 md:pb-3">
         <div className="flex justify-center text-2xl gap-12">
-          <button name="linkedin">
+          <button aria-label="linkedin">
             <Link
               href="https://linkedin.com/in/viosagara"
               target="_blank"
@@ -21,7 +21,7 @@ export default function Footer() {
               <RiLinkedinBoxLine />
             </Link>
           </button>
-          <button name="youtube">
+          <button aria-label="youtube">
             <Link
               href="https://youtube.com/@sagaravio"
               target="_blank"
@@ -30,7 +30,7 @@ export default function Footer() {
               <RiYoutubeLine />
             </Link>
           </button>
-          <button name="instagram">
+          <button aria-label="instagram">
             <Link
               href="https://instagram.com/sagaravio"
               target="_blank"
@@ -39,7 +39,7 @@ export default function Footer() {
               <RiInstagramLine />
             </Link>
           </button>
-          <button name="tiktok">
+          <button aria-label="tiktok">
             <Link
               href="https://tiktok.com/@sgrvio"
               target="_blank"
@@ -62,7 +62,7 @@ export default function Footer() {
         . All Rights Reserved.
         <div className="fixed bottom-4 right-4">
           <button
-            name="darktoggle"
+            aria-label="darktoggle"
             className="text-lg py-4 px-4 rounded-full shadow-md"
           >
             <RiMoonClearLine />
