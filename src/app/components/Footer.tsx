@@ -12,38 +12,42 @@ export default function Footer() {
     <>
       <footer className="text-black dark:text-white text-center text-sm p-3 pb-20 md:pb-3">
         <div className="flex justify-center text-2xl gap-12">
-          <button>
+          <button name="linkedin">
             <Link
               href="https://linkedin.com/in/viosagara"
               target="_blank"
               rel="noopener noreferrer"
+              alt="LinkedIn viosagara"
             >
               <RiLinkedinBoxLine />
             </Link>
           </button>
-          <button>
+          <button name="youtube">
             <Link
               href="https://youtube.com/@sagaravio"
               target="_blank"
               rel="noopener noreferrer"
+              alt="YouTube sagaravio"
             >
               <RiYoutubeLine />
             </Link>
           </button>
-          <button>
+          <button name="instagram">
             <Link
               href="https://instagram.com/sagaravio"
               target="_blank"
               rel="noopener noreferrer"
+              alt="Instagram sagaravio"
             >
               <RiInstagramLine />
             </Link>
           </button>
-          <button>
+          <button name="tiktok">
             <Link
               href="https://tiktok.com/@sgrvio"
               target="_blank"
               rel="noopener noreferrer"
+              alt="TikTok sgrvio"
             >
               <RiTiktokLine />
             </Link>
@@ -61,7 +65,11 @@ export default function Footer() {
         </Link>
         . All Rights Reserved.
         <div className="fixed bottom-4 right-4">
-          <button className="text-lg py-4 px-4 rounded-full shadow-md">
+          <button
+            name="darktoggle"
+            className="text-lg py-4 px-4 rounded-full shadow-md"
+            alt="Toggle Dark Mode"
+          >
             <RiMoonClearLine />
           </button>
         </div>
