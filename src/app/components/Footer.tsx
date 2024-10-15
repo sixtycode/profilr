@@ -8,7 +8,7 @@ export default function Footer() {
         2024{" "}
         <Link
           href="https://github.com/sixtycode/profilrsix"
-          className="text-blue-600 hover:underline hover:underline-offset-4"
+          className="text-blue-600 hover:text-blue-800 visited:text-purple-600 hover:underline hover:underline-offset-4"
         >
           sixtycode
         </Link>
