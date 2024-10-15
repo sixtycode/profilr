@@ -11,7 +11,7 @@ export default function NavbarMobile() {
         >
           VHICL
         </Link>
-        <div className="mb-14"></div>
+        <div className="mb-16"></div>
         {itemsNav.map((item) => {
           return (
             <Link
