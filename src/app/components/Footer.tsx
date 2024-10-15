@@ -4,6 +4,7 @@ import {
   RiYoutubeLine,
   RiInstagramLine,
   RiTiktokLine,
+  RiMoonClearLine,
 } from "react-icons/ri";
 
 export default function Footer() {
@@ -59,6 +60,11 @@ export default function Footer() {
           sixtycode
         </Link>
         . All Rights Reserved.
+        <div className="fixed bottom-4 right-4">
+          <button className="font-bold py-4 px-4 rounded-full shadow-md">
+            <RiMoonClearLine />
+          </button>
+        </div>
       </footer>
     </>
   );
