@@ -1,4 +1,5 @@
-import Navbar from "./components/navbar/Navbar";
+import NavbarDesktop from "./components/navbar/NavbarDesktop";
+import NavbarMobile from "./components/navbar/NavbarMobile";
 import Footer from "./components/Footer";
 import { Metadata } from "next";
 import "./globals.css";
@@ -19,7 +20,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-white dark:bg-neutral-800">
-        <Navbar />
+        <NavbarDesktop />
+        <NavbarMobile />
         {children}
         <Footer />
       </body>
