@@ -7,7 +7,7 @@ export default function NavbarMobile() {
       <nav className="bg-black text-white dark:bg-neutral-300 dark:text-black sticky shadow-md">
         <Link
           href="/"
-          className="md:hidden sm:hidden block flex flex-1 items-center justify-center sm:items-stretch sm:justify-start h-14 w-auto font-mono font-extrabold text-3xl"
+          className="md:hidden sm:hidden flex flex-1 items-center justify-center sm:items-stretch sm:justify-start h-14 w-auto font-mono font-extrabold text-3xl"
         >
           VHICL
         </Link>
