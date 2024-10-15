@@ -14,6 +14,7 @@ export default function Footer() {
         <div className="flex justify-center text-2xl gap-12">
           <button aria-label="linkedin">
             <Link
+              className="button-linkedin"
               href="https://linkedin.com/in/viosagara"
               target="_blank"
               rel="noopener noreferrer"
@@ -23,6 +24,7 @@ export default function Footer() {
           </button>
           <button aria-label="youtube">
             <Link
+              className="button-youtube"
               href="https://youtube.com/@sagaravio"
               target="_blank"
               rel="noopener noreferrer"
@@ -32,6 +34,7 @@ export default function Footer() {
           </button>
           <button aria-label="instagram">
             <Link
+              className="button-instagram"
               href="https://instagram.com/sagaravio"
               target="_blank"
               rel="noopener noreferrer"
@@ -41,6 +44,7 @@ export default function Footer() {
           </button>
           <button aria-label="tiktok">
             <Link
+              className="button-tiktok"
               href="https://tiktok.com/@sgrvio"
               target="_blank"
               rel="noopener noreferrer"
