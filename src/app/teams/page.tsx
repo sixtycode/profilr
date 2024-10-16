@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 export default async function Teams() {
-  const peopleData = await RandomUser(10);
+  const peopleData = await RandomUser(10, "email");
 
   const people = [
     {
