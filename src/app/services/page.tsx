@@ -19,10 +19,10 @@ export default function Services() {
           </p>
           <p>
             The Product / Services page should provide a comprehensive overview
-            of the company's products or services. It should include clear and
-            concise descriptions of each service, along with pricing information
-            if applicable. It should also include testimonials from satisfied
-            customers.
+            of the company&apos;s products or services. It should include clear
+            and concise descriptions of each service, along with pricing
+            information if applicable. It should also include testimonials from
+            satisfied customers.
           </p>
         </div>
       </main>

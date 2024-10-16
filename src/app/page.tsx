@@ -6,7 +6,7 @@ export default function Home() {
           <p>
             Hero section: This is the large banner at the top of the page that
             should feature a high-quality image or video that represents the
-            company's brand. The hero section should also include a brief
+            company&apos;s brand. The hero section should also include a brief
             overview of the company and its mission statement.
           </p>
           <p className="text-base font-semibold">VHICL</p>
@@ -21,10 +21,10 @@ export default function Home() {
             overview of the company, its history, its team, and its culture.
           </p>
           <p>
-            Products or services: This section should highlight the company's
-            products or services. It should include brief descriptions of each
-            product or service, as well as calls to action that encourage
-            visitors to learn more.
+            Products or services: This section should highlight the
+            company&apos;s products or services. It should include brief
+            descriptions of each product or service, as well as calls to action
+            that encourage visitors to learn more.
           </p>
           <p>
             Testimonials: This section should include testimonials from
@@ -37,7 +37,7 @@ export default function Home() {
           </p>
           <p>
             Company tagline: A brief and memorable phrase that captures the
-            essence of the company's brand.
+            essence of the company&apos;s brand.
           </p>
           <p> About Us link: A prominent link to the About Us page. </p>
           <p>

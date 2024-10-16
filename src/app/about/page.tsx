@@ -12,21 +12,21 @@ export default function About() {
         <div className="text-center">
           <h1>
             Company History: This section should provide a brief overview of the
-            company's history, its founding, and its milestones.
+            company&apos;s history, its founding, and its milestones.
           </h1>
           <p className="text-2xl font-bold sm:text-5xl">
             VHICL is where we unite in the magnificent world of Vehicle
             Distribution and Trade since 2014
           </p>
           <h1>
-            Team: This section should introduce the company's team members. It
-            should include their names, titles, and a brief description of their
-            experience.
+            Team: This section should introduce the company&apos;s team members.
+            It should include their names, titles, and a brief description of
+            their experience.
           </h1>
           <h1>
-            Culture: This section should describe the company's culture and
-            values. It should give visitors a sense of what it's like to work at
-            the company.
+            Culture: This section should describe the company&apos;s culture and
+            values. It should give visitors a sense of what it&apos;s like to
+            work at the company.
           </h1>
         </div>
       </main>
