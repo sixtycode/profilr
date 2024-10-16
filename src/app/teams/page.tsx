@@ -24,13 +24,13 @@ export default async function Teams() {
   const people = [
     {
       name: `${peopleData.results[0].name.first} ${peopleData.results[0].name.last}`,
-      role: "Co-Founder / CEO",
+      role: "Photographer",
       mail: peopleData.results[0].email,
       imageUrl: peopleData.results[0].picture.large,
     },
     {
       name: `${peopleData.results[1].name.first} ${peopleData.results[1].name.last}`,
-      role: "Co-Founder / CTO",
+      role: "Videographer",
       mail: peopleData.results[1].email,
       imageUrl: peopleData.results[1].picture.large,
     },
