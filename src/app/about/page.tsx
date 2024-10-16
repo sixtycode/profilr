@@ -21,7 +21,7 @@ export default function About() {
             Vehicle Distribution and Trade since 2014
           </p>
           <p className="my-4 text-lg">
-            "Starts with Curiousity, Drives with Passion."
+            &quot;Starts with Curiousity, Drives with Passion.&quot;
           </p>
           <h1>
             Team: This section should introduce the company&apos;s team members.

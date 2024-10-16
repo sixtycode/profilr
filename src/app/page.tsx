@@ -78,12 +78,13 @@ export default async function Home() {
                     Speechless with how easy this was to Collaborate
                   </h3>
                   <p className="my-4">
-                    "The Nature of being as simple as possible really drives
-                    everything easier, also a lot of option are quite nice with
-                    good offering
+                    &quot;The Nature of being as simple as possible really
+                    drives everything easier, also a lot of option are quite
+                    nice with good offering
                   </p>
                   <p className="my-4">
-                    If you care for your time, I hands down would go with this."
+                    If you care for your time, I hands down would go with
+                    this.&quot;
                   </p>
                 </blockquote>
                 <figcaption className="flex justify-center items-center space-x-3">
@@ -108,11 +109,11 @@ export default async function Home() {
                     Solid foundation for any project
                   </h3>
                   <p className="my-4">
-                    "Professional, responsive, and able to keep up with
-                    ever-changing demand and tight deadlines: That's how I would
-                    describe Vio and his team at VHICL Company. When it comes to
-                    content marketing, you'll definitely get the 5-star
-                    treatment!."
+                    &quot;Professional, responsive, and able to keep up with
+                    ever-changing demand and tight deadlines: That&apos;s how I
+                    would describe Vio and his team at VHICL Company. When it
+                    comes to content marketing, you'll definitely get the 5-star
+                    treatment!.&quot;
                   </p>
                 </blockquote>
                 <figcaption className="flex justify-center items-center space-x-3">
@@ -137,9 +138,9 @@ export default async function Home() {
                     Mindblowing workflow and variants
                   </h3>
                   <p className="my-4">
-                    "As someone who mainly designs in the browser, I&apos;ve
-                    been a casual user of Figma, but as soon as I saw and
-                    started playing with FlowBite my mind was.
+                    &quot;As someone who mainly designs in the browser,
+                    I&apos;ve been a casual user of Figma, but as soon as I saw
+                    and started playing with FlowBite my mind was.
                   </p>
                   <p className="my-4">
                     Everything is so well structured and simple to use
@@ -148,7 +149,7 @@ export default async function Home() {
                   </p>
                   <p className="my-4">
                     Aesthetically, the well designed components are beautiful
-                    and will undoubtedly level up your next application."
+                    and will undoubtedly level up your next application.&quot;
                   </p>
                 </blockquote>
                 <figcaption className="flex justify-center items-center space-x-3">
@@ -173,13 +174,14 @@ export default async function Home() {
                     Efficient Collaborating
                   </h3>
                   <p className="my-4">
-                    "All of us already know Efficiency is the key that needed to
-                    perform multitasking effectively, without being boring and
-                    repetitive which is good very helpful almost every aspects
+                    &quot;All of us already know Efficiency is the key that
+                    needed to perform multitasking effectively, without being
+                    boring and repetitive which is good very helpful almost
+                    every aspects
                   </p>
                   <p className="my-4">
                     You have many appreciation that can leads to create a great
-                    success for your team."
+                    success for your team.&quot;
                   </p>
                 </blockquote>
                 <figcaption className="flex justify-center items-center space-x-3">
