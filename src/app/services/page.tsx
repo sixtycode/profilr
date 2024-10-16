@@ -17,6 +17,13 @@ export default function Services() {
           <p className="mt-6 text-base leading-7">
             Explore Latest or even Vintage! because why not?
           </p>
+          <p>
+            The Product / Services page should provide a comprehensive overview
+            of the company's products or services. It should include clear and
+            concise descriptions of each service, along with pricing information
+            if applicable. It should also include testimonials from satisfied
+            customers.
+          </p>
         </div>
       </main>
     </>

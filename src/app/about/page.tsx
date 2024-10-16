@@ -8,15 +8,26 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <>
-      <main className="grid min-h-full place-items-center px-6 py-24 sm:py-32 lg:px-8">
+      <main className="grid place-items-center px-8 py-8 sm:py-8 lg:px-4">
         <div className="text-center">
-          <p className="text-base font-semibold">About Us</p>
-          <h1 className="mt-4 text-3xl font-bold tracking-tight sm:text-5xl">
-            Vehicle For Today
+          <h1>
+            Company History: This section should provide a brief overview of the
+            company's history, its founding, and its milestones.
           </h1>
-          <p className="mt-6 text-base leading-7">
-            Explore Latest or even Vintage! because why not?
+          <p className="text-2xl font-bold sm:text-5xl">
+            VHICL is where we unite in the magnificent world of Vehicle
+            Distribution and Trade since 2014
           </p>
+          <h1>
+            Team: This section should introduce the company's team members. It
+            should include their names, titles, and a brief description of their
+            experience.
+          </h1>
+          <h1>
+            Culture: This section should describe the company's culture and
+            values. It should give visitors a sense of what it's like to work at
+            the company.
+          </h1>
         </div>
       </main>
     </>
