@@ -112,8 +112,8 @@ export default async function Home() {
                     &quot;Professional, responsive, and able to keep up with
                     ever-changing demand and tight deadlines: That&apos;s how I
                     would describe Vio and his team at VHICL Company. When it
-                    comes to content marketing, you'll definitely get the 5-star
-                    treatment!.&quot;
+                    comes to content marketing, you&apos;ll definitely get the
+                    5-star treatment!.&quot;
                   </p>
                 </blockquote>
                 <figcaption className="flex justify-center items-center space-x-3">
