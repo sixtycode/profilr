@@ -1,3 +1,4 @@
+import RandomUser from "@/app/api/random-user";
 import { Metadata } from "next";
 import Image from "next/image";
 
@@ -7,19 +8,7 @@ export const metadata: Metadata = {
 };
 
 export default async function Teams() {
-  const staticData = await fetch(
-    `https://randomuser.me/api/?results=10&exc=gender,location,login,registered,dob,phone,cell,id&nat=us&noinfo
-`,
-    {
-      cache: "force-cache",
-    }
-  );
-
-  if (!staticData.ok) {
-    throw new Error("Failed to fetch data");
-  }
-
-  const peopleData = await staticData.json();
+  const peopleData = await RandomUser(10);
 
   const people = [
     {
