@@ -57,6 +57,7 @@ export default async function Home() {
               height="600"
               picture-in-picture
               allowFullScreen
+              aria-label="CruiseXCars Audi Then vs Now"
               className="aspect-video w-full md:aspect-auto md:w-auto px-8 mb-4 md:mb-10 md:mt-4"
             ></iframe>
           </div>
