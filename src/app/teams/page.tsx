@@ -1,6 +1,7 @@
 import RandomUser from "@/app/api/random-user";
 import { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Teams",
@@ -15,60 +16,70 @@ export default async function Teams() {
       name: `${peopleData.results[0].name.first} ${peopleData.results[0].name.last}`,
       role: "Photographer",
       mail: peopleData.results[0].email,
+      mailto: `mailto:${peopleData.results[0].email}`,
       imageUrl: peopleData.results[0].picture.large,
     },
     {
       name: `${peopleData.results[1].name.first} ${peopleData.results[1].name.last}`,
       role: "Videographer",
       mail: peopleData.results[1].email,
+      mailto: `mailto:${peopleData.results[1].email}`,
       imageUrl: peopleData.results[1].picture.large,
     },
     {
       name: `${peopleData.results[2].name.first} ${peopleData.results[2].name.last}`,
       role: "Sales Manager",
       mail: peopleData.results[2].email,
+      mailto: `mailto:${peopleData.results[2].email}`,
       imageUrl: peopleData.results[2].picture.large,
     },
     {
       name: `${peopleData.results[3].name.first} ${peopleData.results[3].name.last}`,
       role: "Software Engineer",
       mail: peopleData.results[3].email,
+      mailto: `mailto:${peopleData.results[3].email}`,
       imageUrl: peopleData.results[3].picture.large,
     },
     {
       name: `${peopleData.results[4].name.first} ${peopleData.results[4].name.last}`,
       role: "Marketing Specialist",
       mail: peopleData.results[4].email,
+      mailto: `mailto:${peopleData.results[4].email}`,
       imageUrl: peopleData.results[4].picture.large,
     },
     {
       name: `${peopleData.results[5].name.first} ${peopleData.results[5].name.last}`,
       role: "UI/UX Designer",
       mail: peopleData.results[5].email,
+      mailto: `mailto:${peopleData.results[5].email}`,
       imageUrl: peopleData.results[5].picture.large,
     },
     {
       name: `${peopleData.results[6].name.first} ${peopleData.results[6].name.last}`,
       role: "Accountant",
       mail: peopleData.results[6].email,
+      mailto: `mailto:${peopleData.results[6].email}`,
       imageUrl: peopleData.results[6].picture.large,
     },
     {
       name: `${peopleData.results[7].name.first} ${peopleData.results[7].name.last}`,
       role: "Product Manager",
       mail: peopleData.results[7].email,
+      mailto: `mailto:${peopleData.results[7].email}`,
       imageUrl: peopleData.results[7].picture.large,
     },
     {
       name: `${peopleData.results[8].name.first} ${peopleData.results[8].name.last}`,
       role: "Recruiter",
       mail: peopleData.results[8].email,
+      mailto: `mailto:${peopleData.results[8].email}`,
       imageUrl: peopleData.results[8].picture.large,
     },
     {
       name: `${peopleData.results[9].name.first} ${peopleData.results[9].name.last}`,
       role: "QA Engineer",
       mail: peopleData.results[9].email,
+      mailto: `mailto:${peopleData.results[9].email}`,
       imageUrl: peopleData.results[9].picture.large,
     },
   ];
@@ -108,9 +119,14 @@ export default async function Teams() {
                     <p className="text-sm font-semibold leading-6">
                       {person.role}
                     </p>
-                    <p className="text-sm leading-6 text-blue-600 dark:text-blue-100 hover:text-blue-800 dark:hover:text-blue-200 visited:text-purple-600 dark:visited:text-purple-200 underline underline-offset-4">
+                    <Link
+                      href={person.mailto}
+                      className="text-blue-600 dark:text-blue-100 hover:text-blue-800 dark:hover:text-blue-200 visited:text-purple-600 dark:visited:text-purple-200 underline underline-offset-4"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       {person.mail}
-                    </p>
+                    </Link>
                   </div>
                 </div>
               </li>

@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import RandomUser from "../api/random-user";
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "About Us",
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default async function About() {
-  const aboutData = await RandomUser(4, "nomail");
+  const aboutData = await RandomUser(4, "email");
 
   const expTeam = [
     {
@@ -17,6 +18,8 @@ export default async function About() {
       experience:
         "Working at VHICL is a fun Roller Coaster Thrilling Experience but in a good way.",
       imageUrl: aboutData.results[0].picture.large,
+      mails: `mailto:${aboutData.results[0].email}`,
+      urlMail: aboutData.results[0].email,
     },
     {
       name: `${aboutData.results[1].name.first} ${aboutData.results[1].name.last}`,
@@ -24,6 +27,8 @@ export default async function About() {
       experience:
         "Been VHICL Company through 3 years, i see no regrets at all even We gain solid achievement.",
       imageUrl: aboutData.results[1].picture.large,
+      mails: `mailto:${aboutData.results[1].email}`,
+      urlMail: aboutData.results[1].email,
     },
     {
       name: `${aboutData.results[2].name.first} ${aboutData.results[2].name.last}`,
@@ -31,6 +36,8 @@ export default async function About() {
       experience:
         "Altough Hiring Process Tiring Process, after get the job done i usually play with each others, Hard Work Pays Off and still couting 7 years goes on.",
       imageUrl: aboutData.results[2].picture.large,
+      mails: `mailto:${aboutData.results[2].email}`,
+      urlMail: aboutData.results[2].email,
     },
     {
       name: `${aboutData.results[3].name.first} ${aboutData.results[3].name.last}`,
@@ -38,6 +45,8 @@ export default async function About() {
       experience:
         "Product Manager literally managing product, and after deliver seeing happy VHICL customers really delightful experience.",
       imageUrl: aboutData.results[3].picture.large,
+      mails: `mailto:${aboutData.results[3].email}`,
+      urlMail: aboutData.results[3].email,
     },
   ];
 
@@ -104,6 +113,15 @@ export default async function About() {
                     {vhteam.name}
                   </h3>
                   <span>{vhteam.role}</span>
+                  <br />
+                  <Link
+                    href={vhteam.mails}
+                    className="text-blue-600 dark:text-blue-100 hover:text-blue-800 dark:hover:text-blue-200 visited:text-purple-600 dark:visited:text-purple-200 underline underline-offset-4"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {vhteam.urlMail}
+                  </Link>
                   <p className="mt-3 mb-4 font-light">{vhteam.experience}</p>
                 </div>
               </div>

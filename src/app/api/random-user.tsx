@@ -18,7 +18,7 @@ export default async function RandomUser(amount: number, mail: string) {
       `https://randomuser.me/api/?results=${amount}&exc=email,gender,location,login,registered,dob,phone,cell,id&nat=us&noinfo
       `,
       {
-        cache: "force-cache",
+        cache: "no-store",
       }
     );
 
