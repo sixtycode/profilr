@@ -19,9 +19,9 @@ export default function About() {
           </p>
           <p className="sm:text-5xl my-2 text-2xl tracking-tight font-sans font-extrabold">
             Vehicle Distribution and Trade since{" "}
-            <mark className="px-2 py-1">2014.</mark>
+            <mark className="px-2">2014.</mark>
           </p>
-          <p className="my-6 text-lg font-mono">
+          <p className="my-4 text-lg font-mono">
             &quot;Starts with Curiousity, Drives with Passion.&quot;
           </p>
           <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
