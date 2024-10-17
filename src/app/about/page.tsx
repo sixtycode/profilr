@@ -10,10 +10,6 @@ export default function About() {
     <>
       <main className="grid place-items-center px-8 py-8 sm:py-8 lg:px-4">
         <div className="text-center">
-          <h1>
-            Company History: This section should provide a brief overview of the
-            company&apos;s history, its founding, and its milestones.
-          </h1>
           <p className="sm:text-5xl my-2 text-2xl tracking-tight font-sans font-extrabold">
             VHICL is where we unite in the magnificent world of
           </p>
@@ -24,6 +20,19 @@ export default function About() {
           <p className="my-4 text-lg font-mono">
             &quot;Starts with Curiousity, Drives with Passion.&quot;
           </p>
+          <p className="text-left my-8 px-10 text-justify">
+            Founding: Idea Sparks at Sagara Garage, like what if we create media
+            stream based on daily hobby in this case Vehicle, even though it is
+            just a little amount of information, at very least we contribute to
+            the world as <em>sharing is caring</em>, Vio and Sagara decided to
+            pick a good old Nikon D200 with that nostalgic organic CCD unique
+            sensor from shady ebay merchant haha always has been, awkwardly
+            taking snapshots back then but hey if it works it works! due to this
+            company nature being media stream, we continue to improve
+            Journalistics Discipline and Here We Are, Thanks a Lot to everybody
+            participating even overseas bro still connected to until today.
+          </p>
+          <p className="text-left mt-8 px-10 text-justify">Milestones: </p>
           <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
             <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
               <p className="mb-4 text-2xl tracking-tight font-sans font-extrabold">
@@ -39,23 +48,12 @@ export default function About() {
           <p className="mt-2 mb-6 text-2xl tracking-tight font-sans font-extrabold">
             VHICL&apos;s Culture
           </p>
-          <p>
+          <p className="text-left my-8 px-10 text-justify">
             Innovate with passion, engage with purpose and win with integrity.
-            To live up to these values,
-          </p>
-          <p>
-            the company encourages its team to find a healthy and sustainable
-            work-life balance
-          </p>
-          <p>
-            through wellness days, flexible work arrangements and unplugged time
-            off.
-          </p>
-          <p>
-            When employees are at work, they are supported by a culture of
-            continuous learning
-          </p>
-          <p>
+            To live up to these values, the company encourages its team to find
+            a healthy and sustainable work-life balance through wellness days,
+            flexible work arrangements and unplugged time off. When employees
+            are at work, they are supported by a culture of continuous learning
             through regular retrospectives after sprints and projects as well as
             clear career pathing.
           </p>
