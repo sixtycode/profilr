@@ -52,8 +52,10 @@ export default async function Home() {
             </h2>
             <iframe
               src="https://youtube.com/embed/DNAcIPy4SdY"
+              loading="lazy"
               width="400"
               height="600"
+              picture-in-picture
               allowFullScreen
               className="px-8 mb-4 md:px-12 md:pr-4 md:mb-10"
             ></iframe>
