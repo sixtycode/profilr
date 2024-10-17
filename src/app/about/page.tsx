@@ -15,7 +15,7 @@ export default function About() {
           </p>
           <p className="sm:text-5xl my-2 text-2xl tracking-tight font-extrabold">
             Vehicle Distribution and Trade since{" "}
-            <mark className="px-2">2014.</mark>
+            <mark className="lg:px-2 font-normal">2014.</mark>
           </p>
           <p className="my-4 text-lg font-mono">
             &quot;Starts with Curiousity, Drives with Passion.&quot;
