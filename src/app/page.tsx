@@ -57,7 +57,7 @@ export default async function Home() {
               height="600"
               picture-in-picture
               allowFullScreen
-              className="px-8 mb-4 md:px-12 md:pr-4 md:mb-10"
+              className="aspect-video w-full md:aspect-auto md:w-auto px-8 mb-4 md:mb-10 md:mt-4"
             ></iframe>
           </div>
           <p>
