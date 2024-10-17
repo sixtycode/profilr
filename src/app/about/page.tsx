@@ -93,7 +93,7 @@ export default async function About() {
                 className="items-center rounded-lg shadow sm:flex"
               >
                 <Image
-                  className="w-full md:w-auto rounded-lg sm:rounded-none sm:rounded-l-lg"
+                  className="w-full sm:w-auto rounded-lg sm:rounded-none sm:rounded-l-lg"
                   src={vhteam.imageUrl}
                   alt={vhteam.name}
                   width={128}
