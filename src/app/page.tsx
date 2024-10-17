@@ -39,17 +39,25 @@ export default async function Home() {
 
   return (
     <>
-      <main className="grid min-h-full place-items-center px-6 py-24 sm:py-32 lg:px-8">
+      <main className="grid place-items-center px-4 py-8 sm:py-8 lg:px-4">
         <div className="text-center">
-          <p>
-            Hero section: This is the large banner at the top of the page that
-            should feature a high-quality image or video that represents the
-            company&apos;s brand. The hero section should also include a brief
-            overview of the company and its mission statement.
-          </p>
-          <p className="mt-6 text-base leading-7">
-            Explore Latest or even Vintage! because why not?
-          </p>
+          <div className="grid md:flex place-items-center">
+            <h2 className="lg:pr-20 lg:pl-36 mb-2 text-4xl tracking-tight font-extrabold text-left">
+              Explore Latest or even Vintage!
+              <br /> because why not?
+              <p className="mt-8 text-base tracking-tight font-normal sm:py-8 md:mb-8 mb-4">
+                Surf the Large Media and VHICL mission to bring joy in vast
+                majority <br /> Vehicle Wonderful World without any hassle!
+              </p>
+            </h2>
+            <iframe
+              src="https://youtube.com/embed/DNAcIPy4SdY"
+              width="400"
+              height="600"
+              allowFullScreen
+              className="px-8 mb-4 md:px-12 md:pr-4 md:mb-10"
+            ></iframe>
+          </div>
           <p>
             Company overview: This section should provide a more detailed
             overview of the company, its history, its team, and its culture.
@@ -65,13 +73,13 @@ export default async function Home() {
               <h2 className="mb-4 text-4xl tracking-tight font-extrabold">
                 Testimonials
               </h2>
-              <p className="mb-8 font-light lg:mb-16 sm:text-xl">
+              <p className="mb-6 font-light sm:text-xl">
                 Integrity is Priority and Customers are Brainstormers to us
                 <br />
                 <em>Keep Improve</em>.
               </p>
             </div>
-            <div className="grid mb-4 lg:mb-8 lg:grid-cols-2">
+            <div className="grid lg:grid-cols-2">
               <figure className="flex flex-col justify-center items-center p-8 text-center border-b md:p-12 lg:border-r">
                 <blockquote className="mx-auto mb-8 max-w-2xl">
                   <h3 className="text-lg font-semibold">
