@@ -14,14 +14,14 @@ export default function About() {
             Company History: This section should provide a brief overview of the
             company&apos;s history, its founding, and its milestones.
           </h1>
-          <p className="text-xl font-bold sm:text-4xl my-4 font-sans">
+          <p className="sm:text-5xl my-2 text-2xl tracking-tight font-sans font-extrabold">
             VHICL is where we unite in the magnificent world of
           </p>
-          <p className="text-xl font-bold sm:text-4xl my-4 font-sans">
+          <p className="sm:text-5xl my-2 text-2xl tracking-tight font-sans font-extrabold">
             Vehicle Distribution and Trade since{" "}
             <mark className="px-2 py-1">2014.</mark>
           </p>
-          <p className="my-4 text-lg font-mono">
+          <p className="my-6 text-lg font-mono">
             &quot;Starts with Curiousity, Drives with Passion.&quot;
           </p>
           <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
