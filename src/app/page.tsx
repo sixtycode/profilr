@@ -60,16 +60,58 @@ export default async function Home() {
               />
             </div>
           </div>
-          <p>
-            Company overview: This section should provide a more detailed
-            overview of the company, its history, its team, and its culture.
+          <p className="mb-8">
+            VHICL Company continously delivers more than 9 years, still counting
+            from 2014 back then we just start at Sagara Garage, We absolutely
+            believe Passion leads us today. Started by a small Team of{" "}
+            <Link
+              href="https://unsplash.com/photos/a-group-of-men-dressed-in-medieval-costumes-filJunQqrBs"
+              className="text-blue-600 dark:text-blue-100 hover:text-blue-800 dark:hover:text-blue-200 visited:text-purple-600 dark:visited:text-purple-200 underline underline-offset-4"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              three musketeer
+            </Link>{" "}
+            : Vio, Sagara, and Perkasa. Hilariously tackles all roles between
+            Photographing until Journalistics and{" "}
+            <em>Interdisciplinary Knowledge Discipline</em>, current team member
+            are remarkably exponentially expands sharing great vision
+            altogether! for more information regarding teams:{" "}
+            <Link
+              href="/teams"
+              className="text-blue-600 dark:text-blue-100 hover:text-blue-800 dark:hover:text-blue-200 visited:text-purple-600 dark:visited:text-purple-200 underline underline-offset-4"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              VHICL Teams.
+            </Link>{" "}
           </p>
-          <p>
-            Products or services: This section should highlight the
-            company&apos;s products or services. It should include brief
-            descriptions of each product or service, as well as calls to action
-            that encourage visitors to learn more.
+          <p className="mb-6">
+            Culture truly from bottom of the hearts are Work-Life-Balance, like
+            how do we maintain long run even turning into <em>Legacy</em> which
+            more or less improves the <em>Quality of Life</em> people across the
+            world, also having Culture treating everybodies are family members
+            Comically improve VHICL Company performance as we work here without
+            so many <em>Pressure</em>, Humanizing Human whom never stop creating
+            mistakes thats why <em>Problem Solving Skillset</em> comes in handy.
           </p>
+          <div className="mx-auto max-w-screen-sm">
+            <h2 className="py-6 text-4xl tracking-tight font-extrabold">
+              Automotives Media Stream
+            </h2>
+            <p className="mb-6 font-light sm:text-xl">
+              Fresh and almost daily update! Broader Vehicle News Coverage
+              accross the worlds!{" "}
+              <Link
+                href="/services"
+                className="text-blue-600 dark:text-blue-100 hover:text-blue-800 dark:hover:text-blue-200 visited:text-purple-600 dark:visited:text-purple-200 underline underline-offset-4"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                REDEEM 14% OFF PRICE JUST $108/YEAR !!!
+              </Link>{" "}
+            </p>
+          </div>
           <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
             <div className="mx-auto max-w-screen-sm">
               <h2 className="mb-4 text-4xl tracking-tight font-extrabold">
