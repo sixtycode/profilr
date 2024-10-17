@@ -103,7 +103,7 @@ export default async function Home() {
                   </div>
                 </figcaption>
               </figure>
-              <figure className="flex flex-col justify-center items-center p-8 text-center border-b md:p-12">
+              <figure className="flex flex-col justify-center items-center p-8 text-center border-b md:p-12 lg:border-l">
                 <blockquote className="mx-auto mb-8 max-w-2xl">
                   <h3 className="text-lg font-semibold">
                     Solid foundation for any project
@@ -132,24 +132,20 @@ export default async function Home() {
                   </div>
                 </figcaption>
               </figure>
-              <figure className="flex flex-col justify-center items-center p-8 text-center lg:border-b-0 md:p-12 lg:border-r">
+              <figure className="flex flex-col justify-center items-center p-8 text-center border-t md:p-12 lg:border-r">
                 <blockquote className="mx-auto mb-8 max-w-2xl">
                   <h3 className="text-lg font-semibold">
                     Mindblowing workflow and variants
                   </h3>
                   <p className="my-4">
-                    &quot;As someone who mainly designs in the browser,
-                    I&apos;ve been a casual user of Figma, but as soon as I saw
-                    and started playing with FlowBite my mind was.
+                    &quot;As someone who mainly research Vintage things,
+                    I&apos;ve been through traveling around the world, but as
+                    soon as I saw and started Collaborate with VHICL my
+                    Journalists Journey significantly imporves.
                   </p>
                   <p className="my-4">
-                    Everything is so well structured and simple to use
-                    (I&apos;ve learnt so much about Figma by just using the
-                    toolkit).
-                  </p>
-                  <p className="my-4">
-                    Aesthetically, the well designed components are beautiful
-                    and will undoubtedly level up your next application.&quot;
+                    Aesthetically, the well designed workflow are beautiful and
+                    will undoubtedly level up your Business.&quot;
                   </p>
                 </blockquote>
                 <figcaption className="flex justify-center items-center space-x-3">
@@ -168,7 +164,7 @@ export default async function Home() {
                   </div>
                 </figcaption>
               </figure>
-              <figure className="flex flex-col justify-center items-center p-8 text-center md:p-12">
+              <figure className="flex flex-col justify-center items-center p-8 text-center border-t md:p-12 lg:border-l">
                 <blockquote className="mx-auto mb-8 max-w-2xl">
                   <h3 className="text-lg font-semibold">
                     Efficient Collaborating
