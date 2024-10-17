@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import RandomUser from "@/app/api/random-user";
 import Image from "next/image";
 import Link from "next/link";
+import { YouTubeEmbed } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: {
@@ -39,27 +40,25 @@ export default async function Home() {
 
   return (
     <>
-      <main className="grid place-items-center px-4 py-8 sm:py-8 lg:px-4">
+      <main className="grid place-items-center px-4 py-8 md:px-8 lg:px-20">
         <div className="text-center">
-          <div className="grid md:flex place-items-center">
-            <h2 className="lg:pr-20 lg:pl-36 mb-2 text-4xl tracking-tight font-extrabold text-left">
+          <div className="grid md:flex place-items-center lg:ml-40">
+            <h2 className="md:pr-10 md:pl-18 mb-4 text-4xl tracking-tight font-extrabold">
               Explore Latest or even Vintage!
               <br /> because why not?
-              <p className="mt-8 text-base tracking-tight font-normal sm:py-8 md:mb-8 mb-4">
+              <p className="mt-4 text-base tracking-tight font-normal sm:py-4 md:mb-8">
                 Surf the Large Media and VHICL mission to bring joy in vast
                 majority <br /> Vehicle Wonderful World without any hassle!
               </p>
             </h2>
-            <iframe
-              src="https://youtube.com/embed/DNAcIPy4SdY"
-              loading="lazy"
-              width="400"
-              height="600"
-              picture-in-picture
-              allowFullScreen
-              aria-label="CruiseXCars Audi Then vs Now"
-              className="aspect-video w-full md:aspect-auto md:w-auto px-8 mb-4 md:mb-10 md:mt-4"
-            ></iframe>
+            <div className="md:mt-6">
+              <YouTubeEmbed
+                videoid="oGEzgLf61FQ"
+                width={300}
+                height={300}
+                playlabel="Kawaii Fitment EG6 Civic"
+              />
+            </div>
           </div>
           <p>
             Company overview: This section should provide a more detailed
