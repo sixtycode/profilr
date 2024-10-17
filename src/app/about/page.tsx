@@ -48,22 +48,18 @@ export default function About() {
             finally hit 100k! moral of the story keep strong enough whatever
             situation hitting us and smile.
           </p>
-          <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
-            <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-              <p className="mb-4 text-2xl tracking-tight font-extrabold">
-                VHICL&apos;s Team Members
-              </p>
-              <h1>
-                Team: This section should introduce the company&apos;s team
-                members. It should include their names, titles, and a brief
-                description of their experience.
-              </h1>
-            </div>
-          </div>
-          <p className="mt-2 mb-6 text-2xl tracking-tight font-extrabold">
+          <p className="mt-8 mb-4 text-2xl tracking-tight font-extrabold">
+            VHICL&apos;s Team Members
+          </p>
+          <h1>
+            Team: This section should introduce the company&apos;s team members.
+            It should include their names, titles, and a brief description of
+            their experience.
+          </h1>
+          <p className="mt-8 mb-4 text-2xl tracking-tight font-extrabold">
             VHICL&apos;s Culture
           </p>
-          <p className="text-left my-8 px-10 text-justify">
+          <p className="text-left px-10 text-justify">
             Innovate with passion, engage with purpose and win with integrity.
             To live up to these values, the company encourages its team to find
             a healthy and sustainable work-life balance through wellness days,
