@@ -53,10 +53,10 @@ export default async function Home() {
             </h2>
             <div className="md:mt-6">
               <YouTubeEmbed
-                videoid="oGEzgLf61FQ"
+                videoid="gVXy2vcoKdg"
                 width={300}
                 height={300}
-                playlabel="Kawaii Fitment EG6 Civic"
+                playlabel="Kawaii Fitment Car Show"
               />
             </div>
           </div>
