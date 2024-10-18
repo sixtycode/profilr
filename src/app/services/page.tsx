@@ -141,6 +141,14 @@ export default async function Services() {
             ))}
           </div>
         </div>
+        <Link
+          href="/news"
+          className="font-bold text-center text-3xl lg:text-6xl w-full rounded border py-8"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          MEMBERSHIP PREVIEW CLICK ME!
+        </Link>
       </main>
     </>
   );
