@@ -67,12 +67,13 @@ export default function Footer() {
         <div className="fixed bottom-4 right-4">
           <button
             aria-label="darktoggle"
-            className="text-2xl py-4 px-4 rounded-full shadow-md"
+            className="py-4 px-4 rounded-full shadow-md"
           >
             <Link
               aria-label="button-zustand"
               href="/zustandgo"
               rel="noopener noreferrer"
+              className="text-4xl"
             >
               <RiMoonClearLine />
             </Link>
