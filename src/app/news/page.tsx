@@ -11,6 +11,9 @@ export default function News() {
   return (
     <>
       <div className="px-4 py-8 md:px-8 lg:px-16">
+        <div className="mb-8 px-1 sm:px-10 text-2xl lg:px-2 font-bold tracking-tight sm:text-4xl">
+          Newsletter
+        </div>
         <div className="flex justify-center  gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
           <div className="group w-full max-lg:max-w-xl lg:w-1/3 border border-gray-300 rounded-2xl">
             <div className="flex items-center">
