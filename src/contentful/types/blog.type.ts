@@ -13,18 +13,6 @@ export interface TypeBlogFields {
   image?: EntryFieldTypes.AssetLink;
 }
 
-export interface IAsset {
-  sys: { id: string };
-  fields: {
-    file: {
-      url: string;
-      details?: any;
-      fileName?: string;
-      contentType?: string;
-    };
-  };
-}
-
 export type TypeBlogSkeleton = EntrySkeletonType<TypeBlogFields, "blog">;
 export type TypeBlog<
   Modifiers extends ChainModifiers,

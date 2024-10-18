@@ -183,22 +183,22 @@ export default function Example() {
             </p>
             <pre>
               <code className="language-html">
-                &lt;dl className="grid grid-cols-2 gap-8 max-w-screen-md
-                text-gray-900 sm:grid-cols-3 dark:text-white"&gt; &lt;div
-                className="flex flex-col justify-center items-center"&gt; &lt;dt
-                className="mb-2 text-3xl font-extrabold"&gt;73M+&lt;/dt&gt;
-                &lt;dd className="text-lg font-normal text-gray-500
-                dark:text-gray-400"&gt;developers&lt;/dd&gt; &lt;/div&gt;
-                &lt;div className="flex flex-col justify-center
-                items-center"&gt; &lt;dt className="mb-2 text-3xl
-                font-extrabold"&gt;1B+&lt;/dt&gt; &lt;dd className="text-lg
+                &lt;dl className=&quot;grid grid-cols-2 gap-8 max-w-screen-md
+                text-gray-900 sm:grid-cols-3 dark:text-white&quot;&gt; &lt;div
+                className=&quot;flex flex-col justify-center items-center&quot;&gt; &lt;dt
+                className=&quot;mb-2 text-3xl font-extrabold&quot;&gt;73M+&lt;/dt&gt;
+                &lt;dd className=&quot;text-lg font-normal text-gray-500
+                dark:text-gray-400&quot;&gt;developers&lt;/dd&gt; &lt;/div&gt;
+                &lt;div className=&quot;flex flex-col justify-center
+                items-center&quot;&gt; &lt;dt className=&quot;mb-2 text-3xl
+                font-extrabold&quot;&gt;1B+&lt;/dt&gt; &lt;dd className=&quot;text-lg
                 font-normal text-gray-500
-                dark:text-gray-400"&gt;contributors&lt;/dd&gt; &lt;/div&gt;
-                &lt;div className="flex flex-col justify-center
-                items-center"&gt; &lt;dt className="mb-2 text-3xl
-                font-extrabold"&gt;4M+&lt;/dt&gt; &lt;dd className="text-lg
+                dark:text-gray-400&quot;&gt;contributors&lt;/dd&gt; &lt;/div&gt;
+                &lt;div className=&quot;flex flex-col justify-center
+                items-center&quot;&gt; &lt;dt className=&quot;mb-2 text-3xl
+                font-extrabold&quot;&gt;4M+&lt;/dt&gt; &lt;dd className=&quot;text-lg
                 font-normal text-gray-500
-                dark:text-gray-400"&gt;organizations&lt;/dd&gt; &lt;/div&gt;
+                dark:text-gray-400&quot;&gt;organizations&lt;/dd&gt; &lt;/div&gt;
                 &lt;/dl&gt;
               </code>
             </pre>
