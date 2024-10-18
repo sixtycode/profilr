@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function Example() {
   return (
     <>
-      <main className="pt-8 pb-16 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
+      <main className="pt-8 pb-16 lg:pb-24 antialiased">
         <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
           <div className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
             <Link
@@ -182,25 +182,7 @@ export default function Example() {
               the following:
             </p>
             <pre>
-              <code className="language-html">
-                &lt;dl className=&quot;grid grid-cols-2 gap-8 max-w-screen-md
-                text-gray-900 sm:grid-cols-3 dark:text-white&quot;&gt; &lt;div
-                className=&quot;flex flex-col justify-center items-center&quot;&gt; &lt;dt
-                className=&quot;mb-2 text-3xl font-extrabold&quot;&gt;73M+&lt;/dt&gt;
-                &lt;dd className=&quot;text-lg font-normal text-gray-500
-                dark:text-gray-400&quot;&gt;developers&lt;/dd&gt; &lt;/div&gt;
-                &lt;div className=&quot;flex flex-col justify-center
-                items-center&quot;&gt; &lt;dt className=&quot;mb-2 text-3xl
-                font-extrabold&quot;&gt;1B+&lt;/dt&gt; &lt;dd className=&quot;text-lg
-                font-normal text-gray-500
-                dark:text-gray-400&quot;&gt;contributors&lt;/dd&gt; &lt;/div&gt;
-                &lt;div className=&quot;flex flex-col justify-center
-                items-center&quot;&gt; &lt;dt className=&quot;mb-2 text-3xl
-                font-extrabold&quot;&gt;4M+&lt;/dt&gt; &lt;dd className=&quot;text-lg
-                font-normal text-gray-500
-                dark:text-gray-400&quot;&gt;organizations&lt;/dd&gt; &lt;/div&gt;
-                &lt;/dl&gt;
-              </code>
+              <code className="language-html">&lt;dl className=&quot;grid</code>
             </pre>
             <h4>Table example</h4>
             <p>
@@ -298,23 +280,23 @@ export default function Example() {
               </h2>
             </div>
             <form className="mb-6">
-              <div className="py-2 px-4 mb-4 bg-white rounded-lg rounded-t-lg border border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+              <div className="py-2 px-4 mb-4 rounded-lg rounded-t-lg border border-gray-200 dark:border-gray-700">
                 <label className="sr-only">Your comment</label>
                 <textarea
                   id="comment"
-                  className="px-0 w-full text-sm text-gray-900 border-0 focus:ring-0 dark:text-white dark:placeholder-gray-400 dark:bg-gray-800"
+                  className="px-0 w-full text-sm border-0 focus:ring-0 dark:placeholder-gray-400"
                   placeholder="Write a comment..."
                   required
                 ></textarea>
               </div>
               <button
                 type="submit"
-                className="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-primary-700 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-800"
+                className="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900"
               >
                 Post comment
               </button>
             </form>
-            <article className="p-6 mb-6 text-base bg-white rounded-lg dark:bg-gray-900">
+            <article className="p-6 mb-6 text-base">
               <footer className="flex justify-between items-center mb-2">
                 <div className="flex items-center">
                   <p className="inline-flex items-center mr-3 font-semibold text-sm text-gray-900 dark:text-white">
@@ -327,7 +309,7 @@ export default function Example() {
                 <button
                   id="dropdownComment1Button"
                   data-dropdown-toggle="dropdownComment1"
-                  className="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:text-gray-400 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                  className="inline-flex items-center p-2 text-sm font-medium text-center  rounded-lg focus:ring-4 focus:outline-none focus:ring-gray-50 dark:focus:ring-gray-600"
                   type="button"
                 >
                   <svg
@@ -343,26 +325,20 @@ export default function Example() {
                 </button>
                 <div
                   id="dropdownComment1"
-                  className="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600"
+                  className="hidden z-10 w-36 rounded divide-y divide-gray-100 shadow dark:divide-gray-600"
                 >
                   <ul
                     className="py-1 text-sm text-gray-700 dark:text-gray-200"
                     aria-labelledby="dropdownMenuIconHorizontalButton"
                   >
                     <li>
-                      <p className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                        Edit
-                      </p>
+                      <p className="block py-2 px-4">Edit</p>
                     </li>
                     <li>
-                      <p className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                        Remove
-                      </p>
+                      <p className="block py-2 px-4">Remove</p>
                     </li>
                     <li>
-                      <p className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                        Report
-                      </p>
+                      <p className="block py-2 px-4">Report</p>
                     </li>
                   </ul>
                 </div>
@@ -391,10 +367,10 @@ export default function Example() {
                 </button>
               </div>
             </article>
-            <article className="p-6 mb-6 ml-6 lg:ml-12 text-base bg-white rounded-lg dark:bg-gray-900">
+            <article className="p-6 mb-6 ml-6 lg:ml-12 text-base">
               <footer className="flex justify-between items-center mb-2">
                 <div className="flex items-center">
-                  <p className="inline-flex items-center mr-3 font-semibold text-sm text-gray-900 dark:text-white">
+                  <p className="inline-flex items-center mr-3 font-semibold text-sm">
                     Jese Leos
                   </p>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
@@ -404,7 +380,7 @@ export default function Example() {
                 <button
                   id="dropdownComment2Button"
                   data-dropdown-toggle="dropdownComment2"
-                  className="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:text-gray-400 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                  className="inline-flex items-center p-2 text-sm font-medium text-center rounded-lg focus:ring-4 focus:outline-none focus:ring-gray-50 dark:focus:ring-gray-600"
                   type="button"
                 >
                   <svg
@@ -420,26 +396,20 @@ export default function Example() {
                 </button>
                 <div
                   id="dropdownComment2"
-                  className="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600"
+                  className="hidden z-10 w-36 rounded divide-y divide-gray-100 shadow dark:divide-gray-600"
                 >
                   <ul
                     className="py-1 text-sm text-gray-700 dark:text-gray-200"
                     aria-labelledby="dropdownMenuIconHorizontalButton"
                   >
                     <li>
-                      <p className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                        Edit
-                      </p>
+                      <p className="block py-2 px-4">Edit</p>
                     </li>
                     <li>
-                      <p className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                        Remove
-                      </p>
+                      <p className="block py-2 px-4">Remove</p>
                     </li>
                     <li>
-                      <p className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                        Report
-                      </p>
+                      <p className="block py-2 px-4">Report</p>
                     </li>
                   </ul>
                 </div>
@@ -463,7 +433,7 @@ export default function Example() {
                 </button>
               </div>
             </article>
-            <article className="p-6 mb-6 text-base bg-white border-t border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+            <article className="p-6 mb-6 text-base border-t border-gray-200 dark:border-gray-700 ">
               <footer className="flex justify-between items-center mb-2">
                 <div className="flex items-center">
                   <p className="inline-flex items-center mr-3 font-semibold text-sm text-gray-900 dark:text-white">
@@ -476,7 +446,7 @@ export default function Example() {
                 <button
                   id="dropdownComment3Button"
                   data-dropdown-toggle="dropdownComment3"
-                  className="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:text-gray-400 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                  className="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500  rounded-lg  focus:ring-4 focus:outline-none focus:ring-gray-50 dark:text-gray-400  dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                   type="button"
                 >
                   <svg
@@ -492,26 +462,20 @@ export default function Example() {
                 </button>
                 <div
                   id="dropdownComment3"
-                  className="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600"
+                  className="hidden z-10 w-36  rounded divide-y divide-gray-100 shadow  dark:divide-gray-600"
                 >
                   <ul
                     className="py-1 text-sm text-gray-700 dark:text-gray-200"
                     aria-labelledby="dropdownMenuIconHorizontalButton"
                   >
                     <li>
-                      <p className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                        Edit
-                      </p>
+                      <p className="block py-2 px-4">Edit</p>
                     </li>
                     <li>
-                      <p className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                        Remove
-                      </p>
+                      <p className="block py-2 px-4">Remove</p>
                     </li>
                     <li>
-                      <p className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                        Report
-                      </p>
+                      <p className="block py-2 px-4">Report</p>
                     </li>
                   </ul>
                 </div>
@@ -539,7 +503,7 @@ export default function Example() {
                 </button>
               </div>
             </article>
-            <article className="p-6 text-base bg-white border-t border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+            <article className="p-6 text-base  border-t border-gray-200 dark:border-gray-700 ">
               <footer className="flex justify-between items-center mb-2">
                 <div className="flex items-center">
                   <p className="inline-flex items-center mr-3 font-semibold text-sm text-gray-900 dark:text-white">
@@ -552,7 +516,7 @@ export default function Example() {
                 <button
                   id="dropdownComment4Button"
                   data-dropdown-toggle="dropdownComment4"
-                  className="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:text-gray-400 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                  className="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500  rounded-lg  focus:ring-4 focus:outline-none focus:ring-gray-50 dark:text-gray-400  dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                   type="button"
                 >
                   <svg
@@ -567,26 +531,20 @@ export default function Example() {
                 </button>
                 <div
                   id="dropdownComment4"
-                  className="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600"
+                  className="hidden z-10 w-36  rounded divide-y divide-gray-100 shadow  dark:divide-gray-600"
                 >
                   <ul
                     className="py-1 text-sm text-gray-700 dark:text-gray-200"
                     aria-labelledby="dropdownMenuIconHorizontalButton"
                   >
                     <li>
-                      <p className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                        Edit
-                      </p>
+                      <p className="block py-2 px-4   ">Edit</p>
                     </li>
                     <li>
-                      <p className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                        Remove
-                      </p>
+                      <p className="block py-2 px-4   ">Remove</p>
                     </li>
                     <li>
-                      <p className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                        Report
-                      </p>
+                      <p className="block py-2 px-4   ">Report</p>
                     </li>
                   </ul>
                 </div>
