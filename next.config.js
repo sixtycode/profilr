@@ -8,6 +8,13 @@ module.exports = {
         pathname: "/api/portraits/**",
         search: "",
       },
+      {
+        protocol: "https",
+        hostname: "pagedone.io",
+        port: "",
+        pathname: "/asset/uploads/**",
+        search: "",
+      },
     ],
   },
 };
