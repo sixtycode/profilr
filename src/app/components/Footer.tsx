@@ -67,7 +67,7 @@ export default function Footer() {
         <div className="fixed bottom-4 right-4">
           <button
             aria-label="darktoggle"
-            className="py-4 px-4 rounded-full shadow-md"
+            className="text-4xl py-6 mx-6 px-6 rounded-full shadow-md"
           >
             <Link
               aria-label="button-zustand"
